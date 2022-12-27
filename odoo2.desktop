@@ -1,0 +1,8 @@
+
+[Desktop Entry]
+Type=Application
+Name=odoo
+Icon=preferences-desktop-screensaver
+Exec=firefox-esr --kiosk --disable-pinch --first-startup --new-tab http://0.0.0.0:8069/pos/ui?config_id=1#cids=1
+TryExec=firefox-esr
+OnlyShowIn=XFCE;

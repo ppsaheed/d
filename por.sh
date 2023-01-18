@@ -1,3 +1,4 @@
+sudo docker system prune -a --volumes
 sudo apt update
 sudo apt upgrade
 sudo apt install task-xfce-desktop blueman xfce4-terminal network-manager-gnome xfce4-power-manager -y

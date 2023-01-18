@@ -1,0 +1,5 @@
+sudo nano /etc/lightdm/lightdm.conf
+
+Scroll to the end of the file, add:
+
+autologin-user=username

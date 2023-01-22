@@ -23,9 +23,17 @@ sudo systemctl start podman.socket
 sudo systemctl status podman.socket
 sudo apt install podman
 sudo apt-get install docker-compose
-wget http://ftp.us.debian.org/debian/pool/main/libp/libpod/podman-docker_4.3.1+ds1-5+b1_arm64.deb
-sudo apt install ./podman-docker_4.3.1+ds1-5+b1_arm64.deb 
-sudo systemctl restart podman.socket
+
 sudo curl -H "Content-Type: application/json" --unix-socket /var/run/docker/docker.sock http://localhost/_ping
 sudo curl -L "https://github.com/docker/compose/releases/download/2.1.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo curl -L "https://github.com/docker/compose/releases/download/v2.1.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+sudo apt install podman
+sudo apt-get install docker-compose
+sudo systemctl start podman.socket
+sudo systemctl status podman.socket
+wget http://ftp.us.debian.org/debian/pool/main/libp/libpod/podman-docker_4.3.1+ds1-5+b1_arm64.deb
+sudo apt install ./podman-docker_4.3.1+ds1-5+b1_arm64.deb 
+sudo systemctl restart podman.socket
+unqualified-search-registries = ["docker.io"]
+

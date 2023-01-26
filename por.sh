@@ -2,6 +2,7 @@ sudo docker system prune -a --volumes
 sudo apt update
 sudo apt upgrade
 sudo apt install task-xfce-desktop blueman xfce4-terminal network-manager-gnome xfce4-power-manager -y
+sudo cp ./conf/lightdm/lightdm.conf /etc/lightdm/lightdm.conf -f
 #sudo apt install docker.io -y
 #sudo apt install apparmor -y
 #sudo apt install docker-compose -y

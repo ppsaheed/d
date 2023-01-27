@@ -38,3 +38,10 @@ sudo apt install ./podman-docker_4.3.1+ds1-5+b1_arm64.deb
 sudo systemctl restart podman.socket
 unqualified-search-registries = ["docker.io"]
 
+
+
+#sudo apt-get update
+#sudo apt-get install transmission-cli transmission-common transmission-daemon
+#sudo service transmission-daemon start
+#sudo systemctl enable transmission-daemon
+

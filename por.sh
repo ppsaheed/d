@@ -39,9 +39,15 @@ sudo systemctl restart podman.socket
 unqualified-search-registries = ["docker.io"]
 
 
+#sudo apt install chromium qdirstat
+
 
 #sudo apt-get update
 #sudo apt-get install transmission-cli transmission-common transmission-daemon
 #sudo service transmission-daemon start
 #sudo systemctl enable transmission-daemon
 
+#https://sylvaindurand.org/launch-chromium-in-kiosk-mode/
+#sudo apt-get install xserver-xorg-video-all xserver-xorg-input-all xserver-xorg-core xinit x11-xserver-utils
+#sudo apt-get install chromium-browser
+#sudo apt-get install unclutter

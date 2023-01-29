@@ -54,7 +54,7 @@ unqualified-search-registries = ["docker.io"]
 
 
 
-wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
-sudo apt-get update
-sudo apt-get install sublime-text
+#wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
+#sudo apt-get update
+#sudo apt-get install sublime-text
 

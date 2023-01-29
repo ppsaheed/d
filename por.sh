@@ -51,3 +51,10 @@ unqualified-search-registries = ["docker.io"]
 #sudo apt-get install xserver-xorg-video-all xserver-xorg-input-all xserver-xorg-core xinit x11-xserver-utils
 #sudo apt-get install chromium-browser
 #sudo apt-get install unclutter
+
+
+
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
+sudo apt-get update
+sudo apt-get install sublime-text
+

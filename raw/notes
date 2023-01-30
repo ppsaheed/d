@@ -1,1 +1,2 @@
-raw out
+#You can install a list of required packages from a text file using the following command:
+apt install $(cat packages.txt) || true

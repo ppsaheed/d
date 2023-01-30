@@ -1,0 +1,2 @@
+#This will show the size of each package in kilobytes, followed by the package name. The sort -n command sorts the output based on the size, in ascending order.
+dpkg-query -W -f='${Installed-Size}\t${Package}\n' | sort -n

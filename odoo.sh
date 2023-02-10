@@ -18,6 +18,7 @@ curl -fsSL https://tailscale.com/install.sh | sh
 #ssid_&_pass
 #legal acceptance
 #chromium kiosk
+#wallpappr logo change
 
 #purge xfc panal
 #novnc_test

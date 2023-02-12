@@ -1,0 +1,2 @@
+cd /home/orangepi/.config/chromium
+cd ..; tar cjvf 'chromium'.tar.bz2 'chromium' && rm -rf 'chromium'

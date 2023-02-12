@@ -1,3 +1,5 @@
+#!/bin/bash
+
 sudo docker system prune -a --volumes
 sudo apt update
 sudo apt upgrade
@@ -41,3 +43,13 @@ echo "alias h='history'" >> ~/.bashrc
 echo "alias ..='cd ..'" >> ~/.bashrc
 echo "alias ...='cd ../..'" >> ~/.bashrc
 echo "alias g='grep'" >> ~/.bashrc
+
+
+
+
+
+# Backup original lightdm.conf file
+sudo cp /etc/lightdm/lightdm.conf /etc/lightdm/lightdm.conf.bak
+
+# Replace the line containing "autologin-user" with "autologin-user=orangepi"
+sudo sed -i 's/^autologin-user.*/autologin-user=orangepi/g' /etc/lightdm/lightdm.conf

@@ -1,3 +1,4 @@
 ﻿sudo dpkg -i b43-fwcutter_019-7_amd64.deb
 tar xfvj broadcom-wl-6.30.163.46.tar.bz2
 sudo b43-fwcutter -w /lib/firmware broadcom-wl-6.30.163.46.wl_apsta.o
+https://apps.apple.com/in/app/macos-catalina/id1466841314?mt=12
